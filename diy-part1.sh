@@ -14,4 +14,4 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/fw876/helloworld
+git clone https://github.com/fw876/helloworld.git package/helloworld
