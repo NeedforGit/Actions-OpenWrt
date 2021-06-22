@@ -11,7 +11,7 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i '$a git clone https://github.com/fw876/helloworld' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/fw876/helloworld.git package/helloworld
+#git clone https://github.com/fw876/helloworld.git package/helloworld
