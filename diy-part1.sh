@@ -16,5 +16,4 @@
 # Add a feed source
 #git clone https://github.com/fw876/helloworld.git package/helloworld
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-sed -i 's/mac_addr = of_get_mac_address(rt2x00dev->dev->of_node)/mac_addr = of_get_mac_address(rt2x00dev->dev->of_node, eeprom_mac_addr)/' /workdir/openwrt/build_dir/target-x86_64_musl/linux-x86_64/backports-5.10.42-1/drivers/net/wireless/ralink/rt2x00/rt2x00dev.c
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
