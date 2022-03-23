@@ -24,4 +24,5 @@ sed -i "s/OpenWrt /LZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/l
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # JD签到
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+
