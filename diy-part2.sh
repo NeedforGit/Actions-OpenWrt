@@ -56,10 +56,10 @@ git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 #make && sudo make install
 #popd
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
@@ -89,7 +89,7 @@ svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
 git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
 
 #添加smartdns
-svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
+svn co https://github.com/kiddin9/smartdns-le
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
 #svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartdns package/luci-app-smartdns
 #sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=1.2021.34/' feeds/packages/net/smartdns/Makefile
