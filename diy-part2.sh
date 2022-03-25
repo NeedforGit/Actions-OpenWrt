@@ -74,20 +74,10 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/t
 #svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
 
 # themes
-svn co https://github.com/solidus1983/luci-theme-opentomato/trunk/luci/themes/luci-theme-opentomato package/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge package/luci-theme-edge
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy package/luci-theme-rosy
-svn co https://github.com/rosywrt/luci-theme-purple/trunk/luci-theme-purple package/luci-theme-purple
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
-git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-git clone https://github.com/rosywrt/luci-theme-rosy package/luci-theme-rosy
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/luci-app-ssr-plus
-svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/naiveproxy
-git clone https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
+
 
 #添加smartdns
 svn co https://github.com/kiddin9/smartdns-le
@@ -98,8 +88,8 @@ svn co https://github.com/kiddin9/smartdns-le
 #sed -i 's/PKG_MIRROR_HASH:=.*/PKG_MIRROR_HASH:=c2979d956127946861977781beb3323ad9a614ae55014bc99ad39beb7a27d481/' feeds/packages/net/smartdns/Makefile
 
 # 修改默认主题
-# sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
-# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
+sed -i 's/luci-theme-bootstrap/luci-theme-edge/g' ./feeds/luci/collections/luci/Makefile
 
 #修改makefile
 #find package/*/ -maxdepth 2 -path "*/Makefile" | xargs -i sed -i 's/include\ \.\.\/\.\.\/luci\.mk/include \$(TOPDIR)\/feeds\/luci\/luci\.mk/g' {}
