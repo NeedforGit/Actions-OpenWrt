@@ -23,7 +23,7 @@ sed -i "s/OpenWrt /LZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/l
 #移除不用软件包
 #rm -rf package/lean/luci-app-dockerman
 #rm -rf package/lean/luci-app-wrtbwmon
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -75,8 +75,8 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/t
 
 # themes
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge package/luci-theme-edge
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 
 #添加smartdns
