@@ -34,10 +34,10 @@ sed -i "s/OpenWrt /LZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/l
 
 #添加额外软件包
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb-##
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
-#git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass-##
+git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/wxfyes/luci-app-ttnode.git package/luci-app-ttnode
 #git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
@@ -57,10 +57,10 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #make && sudo make install
 #popd
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng-##
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go-##
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus-##
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
@@ -81,7 +81,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
 #添加smartdns
-#svn co https://github.com/kiddin9/smartdns-le-##
+svn co https://github.com/kiddin9/smartdns-le
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns package/luci-app-smartdns
 #svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartdns package/luci-app-smartdns
 #sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=1.2021.34/' feeds/packages/net/smartdns/Makefile
