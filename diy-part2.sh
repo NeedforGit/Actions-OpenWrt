@@ -45,8 +45,8 @@ git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 #git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
-#git clone https://github.com/kenzok8/small.git package/small
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
  
@@ -56,14 +56,14 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #pushd package/luci-app-openclash/tools/po2lmo
 #make && sudo make install
 #popd
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
 #svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
 #svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
 #svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
