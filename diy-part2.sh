@@ -47,7 +47,7 @@ git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-#git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
+git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
  
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
@@ -102,6 +102,6 @@ svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartd
 #sed -i 's/PKG_SOURCE_VERSION:=.*/PKG_SOURCE_VERSION:=52b36a2dd837e8462de8e01458bf02cf9eea47dd/g' feeds/packages/utils/runc/Makefile
 
 # xray-plugin
-#sed -i 's/PKG_HASH:=.*/PKG_HASH:=4a178a2bacffcc2fd374c57e47b71eb0cb5667bfe747690a16501092c0618707/' package/xray-plugin/Makefile
-#./scripts/feeds update -a
-#./scripts/feeds install -a
+sed -i 's/PKG_HASH:=.*/PKG_HASH:=4a178a2bacffcc2fd374c57e47b71eb0cb5667bfe747690a16501092c0618707/' package/xray-plugin/Makefile
+./scripts/feeds update -a
+./scripts/feeds install -a
