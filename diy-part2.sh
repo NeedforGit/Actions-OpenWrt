@@ -47,7 +47,7 @@ git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
+#git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
  
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
@@ -55,24 +55,24 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # 编译 po2lmo (如果有po2lmo可跳过)
 #pushd package/luci-app-openclash/tools/po2lmo
 #make && sudo make install
-popd
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
-svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
-svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
-svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
-svn co https://github.com/fw876/helloworld/tree/master/v2ray-plugin package/v2ray-plugin
-svn co https://github.com/fw876/helloworld/tree/master/v2ray-core package/v2ray-core
-svn co https://github.com/fw876/helloworld/tree/master/shadowsocksr-libev package/shadowsocksr-libev
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
-svn co https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
-svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
+#popd
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
+#svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
+#svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
+#svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
+#svn co https://github.com/fw876/helloworld/tree/master/v2ray-plugin package/v2ray-plugin
+#svn co https://github.com/fw876/helloworld/tree/master/v2ray-core package/v2ray-core
+#svn co https://github.com/fw876/helloworld/tree/master/shadowsocksr-libev package/shadowsocksr-libev
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
+#svn co https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
+#svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
 
 # themes
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge package/luci-theme-edge
@@ -102,6 +102,6 @@ svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartd
 #sed -i 's/PKG_SOURCE_VERSION:=.*/PKG_SOURCE_VERSION:=52b36a2dd837e8462de8e01458bf02cf9eea47dd/g' feeds/packages/utils/runc/Makefile
 
 # xray-plugin
-sed -i 's/PKG_HASH:=.*/PKG_HASH:=4a178a2bacffcc2fd374c57e47b71eb0cb5667bfe747690a16501092c0618707/' package/xray-plugin/Makefile
-./scripts/feeds update -a
-./scripts/feeds install -a
+#sed -i 's/PKG_HASH:=.*/PKG_HASH:=4a178a2bacffcc2fd374c57e47b71eb0cb5667bfe747690a16501092c0618707/' package/xray-plugin/Makefile
+#./scripts/feeds update -a
+#./scripts/feeds install -a
