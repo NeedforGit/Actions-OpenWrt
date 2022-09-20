@@ -55,24 +55,24 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # 编译 po2lmo (如果有po2lmo可跳过)
 #pushd package/luci-app-openclash/tools/po2lmo
 #make && sudo make install
-#popd
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
-#svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
-#svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
-#svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
-#svn co https://github.com/fw876/helloworld/tree/master/v2ray-plugin package/v2ray-plugin
-#svn co https://github.com/fw876/helloworld/tree/master/v2ray-core package/v2ray-core
-#svn co https://github.com/fw876/helloworld/tree/master/shadowsocksr-libev package/shadowsocksr-libev
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
-#svn co https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
-#svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
+popd
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/tcping package/tcping
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria package/hysteria
+svn co https://github.com/fw876/helloworld/tree/master/xray-core package/xray-core
+svn co https://github.com/fw876/helloworld/tree/master/xray-plugin package/xray-plugin
+svn co https://github.com/fw876/helloworld/tree/master/shadowsocks-rust package/shadowsocks-rust
+svn co https://github.com/fw876/helloworld/tree/master/v2ray-plugin package/v2ray-plugin
+svn co https://github.com/fw876/helloworld/tree/master/v2ray-core package/v2ray-core
+svn co https://github.com/fw876/helloworld/tree/master/shadowsocksr-libev package/shadowsocksr-libev
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
+svn co https://github.com/fw876/helloworld/tree/master/luci-app-ssr-plus package/luci-app-ssr-plus
+svn co https://github.com/fw876/helloworld/tree/master/naiveproxy package/naiveproxy
 
 # themes
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-edge package/luci-theme-edge
