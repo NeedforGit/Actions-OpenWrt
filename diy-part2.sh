@@ -50,8 +50,8 @@ git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/linkease/istore-ui
-git clone https://github.com/linkease/istore
+#git clone https://github.com/linkease/istore-ui
+#git clone https://github.com/linkease/istore
  
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
