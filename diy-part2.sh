@@ -24,6 +24,7 @@ sed -i "s/OpenWrt /LZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/l
 #rm -rf package/lean/luci-app-dockerman
 #rm -rf package/lean/luci-app-wrtbwmon
 #rm -rf package/lean/luci-theme-argon
+rm -rf feeds/packages/lang/golang
 
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
@@ -52,8 +53,8 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #git clone https://github.com/linkease/istore-ui
 #git clone https://github.com/linkease/istore
-#git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
-git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
  
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
