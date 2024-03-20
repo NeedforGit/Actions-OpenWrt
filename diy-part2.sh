@@ -24,7 +24,7 @@ sed -i "s/OpenWrt /LZ build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/l
 #rm -rf package/lean/luci-app-dockerman
 #rm -rf package/lean/luci-app-wrtbwmon
 #rm -rf package/lean/luci-theme-argon
-rm -rf feeds/luci/applications/luci-app-mosdns
+#rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/packages/lang/golang
 
 
@@ -108,7 +108,7 @@ svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartd
 #sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=1.0.2/g' feeds/packages/utils/runc/Makefile
 #sed -i 's/PKG_HASH:=.*/PKG_HASH:=6c3cca4bbeb5d9b2f5e3c0c401c9d27bc8a5d2a0db8a2f6a06efd03ad3c38a33/g' feeds/packages/utils/runc/Makefile
 #sed -i 's/PKG_SOURCE_VERSION:=.*/PKG_SOURCE_VERSION:=52b36a2dd837e8462de8e01458bf02cf9eea47dd/g' feeds/packages/utils/runc/Makefile
-sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
+#sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
 sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
 
 
