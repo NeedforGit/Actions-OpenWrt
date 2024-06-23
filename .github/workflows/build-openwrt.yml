@@ -76,8 +76,6 @@ jobs:
         sudo apt-get install -y gcc-13
         sudo apt-get install -y g++-13
         sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 60 --slave /usr/bin/g++ g++ /usr/bin/g++-13
-        rm -rf feeds/packages/lang/golang 
-        svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
