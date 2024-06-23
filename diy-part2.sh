@@ -110,6 +110,7 @@ svn co https://github.com/kenzok8/openwrt-packages/branches/main/luci-app-smartd
 #sed -i 's/PKG_SOURCE_VERSION:=.*/PKG_SOURCE_VERSION:=52b36a2dd837e8462de8e01458bf02cf9eea47dd/g' feeds/packages/utils/runc/Makefile
 sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
 sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
+sed -i 's/golang/host/golang/host fuse/g' package/luci-app-alist/alist/Makefile
 
 
 # xray-plugin
