@@ -55,8 +55,8 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #git clone https://github.com/linkease/istore-ui
 #git clone https://github.com/linkease/istore
-git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
-#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+#git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #git clone https://github.com/sbwml/packages_lang_golang -b 20.x feeds/packages/lang/golang
 
  
