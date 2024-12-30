@@ -41,7 +41,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
-git clone https://github.com/Cneupa/luci-app-bypass package/luci-app-bypass
+#git clone https://github.com/Cneupa/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/wxfyes/luci-app-ttnode.git package/luci-app-ttnode
 #git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
@@ -49,9 +49,9 @@ git clone https://github.com/Cneupa/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 #git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
-git clone https://github.com/kenzok8/small.git package/small
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
+#git clone https://github.com/kenzok8/small.git package/small
+#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+#git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #git clone https://github.com/linkease/istore-ui
 #git clone https://github.com/linkease/istore
